@@ -22,7 +22,7 @@ limitations under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.steelbridgelabs.oss</groupId>
     <artifactId>parent-oss</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.9</version>
     <packaging>pom</packaging>
     <name>SteelBridge Labs Open Source Software - Parent</name>
     <description>SteelBridge Labs Open Source Software - Parent</description>
@@ -92,7 +92,7 @@ limitations under the License.
         <!-- sign -->
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <!-- coverall -->
-        <jacoco-maven-plugin.version>4.2.0</jacoco-maven-plugin.version>
+        <coveralls-maven-plugin.version>4.2.0</coveralls-maven-plugin.version>
         <!-- jacoco -->
         <jacoco-maven-plugin.version>0.7.7.201606060606</jacoco-maven-plugin.version>
     </properties>
