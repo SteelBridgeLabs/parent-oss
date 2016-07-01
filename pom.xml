@@ -22,7 +22,7 @@ limitations under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.steelbridgelabs.oss</groupId>
     <artifactId>parent-oss</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7</version>
     <packaging>pom</packaging>
     <name>SteelBridge Labs Open Source Software - Parent</name>
     <description>SteelBridge Labs Open Source Software - Parent</description>
@@ -89,6 +89,8 @@ limitations under the License.
         <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
         <!-- sign -->
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <!-- coverall -->
+        <coveralls-maven-plugin.version>4.2.0</coveralls-maven-plugin.version>
     </properties>
     <profiles>
         <profile>
@@ -348,6 +350,12 @@ limitations under the License.
                             </configuration>
                         </execution>
                     </executions>
+                </plugin>
+                <!-- coverall -->
+                <plugin>
+                    <groupId>org.eluder.coveralls</groupId>
+                    <artifactId>coveralls-maven-plugin</artifactId>
+                    <version>${coveralls-maven-plugin.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
