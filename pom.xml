@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.steelbridgelabs.oss</groupId>
     <artifactId>parent-oss</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <packaging>pom</packaging>
     <name>SteelBridge Labs Open Source Software - Parent</name>
     <description>SteelBridge Labs Open Source Software - Parent</description>
